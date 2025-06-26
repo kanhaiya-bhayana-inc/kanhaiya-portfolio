@@ -7,6 +7,8 @@ import Photo from '@/components/Photo';
 import Stats from '@/components/Stats';
 import Link from 'next/link';
 import Timeline from '@/components/Timeline';
+import SectionHeading from '@/components/SectionHeading';
+import ScrollToTop from '@/components/ScrollToTop';
 
 const Home = () => {
   return (
@@ -18,9 +20,9 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className='text-xl'>Software Engineer</span>
             <h1 className='h2 mb-6'>
-            Hello I'm <br /> <span className='text-accent'>Kn Kanhaiya</span>
+            Hola I'm <br /> <span className='text-accent'>Kanhaiya Bhayana</span>
             </h1>
-            <p className='max-w-[500px] mb-9 text-white/80 text-justify'>I am a Software Engineer skilled in C#, JAVA, .NET Core, React, Docker, SQL Server and Azure Cloud, with a focus on Microservices, and Clean Architecture. Currently at Incedo, and I am Azure-certified (AZ-204, AZ-900).
+            <p className='max-w-[500px] mb-9 text-white/80 text-justify'>Software Engineer with 2+ years of experience building scalable, high-performance microservices using Java, Spring Boot, and PostgreSQL. Proven ability to enhance system throughput using Redis and apply Clean Architecture principles to drive maintainable, enterprise-grade applications. Skilled in deploying secure solutions with JWT, integrating real-time streaming systems using Kafka and Azure Event Hub, and automating workflows for internal tools. Experienced in CI/CD pipelines using Azure DevOps and Docker, mentoring peers, and leading agile teams to deliver impactful features. Passionate about writing clean, testable code and continuously improving team velocity and software quality.
             </p>
             {/* btn and socials */}
             <div className='flex flex-col xl:flex-row items-center gap-8'>
@@ -45,7 +47,11 @@ const Home = () => {
       </div>
       <Stats />
 
+      <SectionHeading>My Developer Journey</SectionHeading>
+
       <Timeline />
+
+      <ScrollToTop />
     </section>
 
   );
