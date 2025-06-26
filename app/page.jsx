@@ -6,6 +6,7 @@ import Social from '@/components/Social';
 import Photo from '@/components/Photo';
 import Stats from '@/components/Stats';
 import Link from 'next/link';
+import Timeline from '@/components/Timeline';
 
 const Home = () => {
   return (
@@ -43,7 +44,10 @@ const Home = () => {
         
       </div>
       <Stats />
+
+      <Timeline />
     </section>
+
   );
 };
 
