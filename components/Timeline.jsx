@@ -27,7 +27,7 @@ export default function Timeline() {
             boxShadow: 'none'
           }}
           contentArrowStyle={{
-            borderRight: `8px solid var(--gh-bg-primary)`
+            borderRight: `8px solid ${item?.color}`
           }}
           dateClassName="gh-date"
         >
