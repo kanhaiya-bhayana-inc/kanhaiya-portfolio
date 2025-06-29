@@ -15,8 +15,8 @@ export const experience = [
       'Developed <b>scalable microservices</b> with Spring Boot, Java & PostgreSQL, significantly boosting performance.',
       'Enhanced distributed caching via </b>Redis</b> → ≈ 40 % higher throughput.',
       'Applied </b>Clean Architecture</b> to improve maintainability and onboarding speed.',
-      'Built a secure **JWT** service (RSA-256 + KID) that met enterprise-grade compliance.',
-      'Extended the Business Assessment Tool (BAT):\n  Integrated **Kafka → Azure Event Hub** for real-time preference streams.\n  Co-ordinated live e-mail notifications with the legacy mailer.',
+      'Built a secure JWT service (RSA-256 + KID) that met enterprise-grade compliance.',
+      'Extended the Business Assessment Tool (BAT):\n  Integrated Kafka → Azure Event Hub for real-time preference streams.\n  Co-ordinated live e-mail notifications with the legacy mailer.',
       'Mentored junior devs and resolved complex prod issues, fostering a collaborative culture.'
     ]
   },
@@ -65,8 +65,8 @@ export const experience = [
     icon: <GoBriefcase />,
     summary: [
       'Completed an intensive 1.5-month track in Spring Boot, Java & React.',
-      'Introduced **Clean Architecture** + **Repository Pattern** to new modules.',
-      'Led a squad of 7 that shipped **4 new features** in 1 month; presented to the CDO.',
+      'Introduced Clean Architecture + Repository Pattern to new modules.',
+      'Led a squad of 7 that shipped 4 new features in 1 month; presented to the CDO.',
       'Owned sprint planning, code reviews & API integrations → 30 % rise in engagement.'
     ]
   },
