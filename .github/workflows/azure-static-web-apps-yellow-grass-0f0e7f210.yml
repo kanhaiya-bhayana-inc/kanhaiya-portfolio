@@ -21,25 +21,6 @@ jobs:
           submodules: true
           lfs: false
 
-      # Fix permissions issue with Git config
-      - name: Fix Permissions for Git Config
-        run: chmod -R u+w .git || true
-
-      # Ensure repository is marked as safe
-      - name: Mark Repository as Safe
-        run: git config --global --add safe.directory /home/runner/work/${{ github.repository }}
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18.17.0'
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build Application
-        run: npm run build
-
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
