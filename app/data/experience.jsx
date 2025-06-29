@@ -1,5 +1,6 @@
 // data/experience.js
 import { GoBriefcase, GoMortarBoard } from 'react-icons/go';
+import { GiArchiveResearch  } from 'react-icons/gi';
 
 
 export const experience = [
@@ -19,6 +20,19 @@ export const experience = [
       'Mentored junior devs and resolved complex prod issues, fostering a collaborative culture.'
     ]
   },
+
+  /* ────────────────────Research paper────────────────────────── */
+  {
+    title: 'Adverse Weather Object Detection Using Customized YOLO Models',
+    org: 'Springer - Conference paper',
+    date: 'First Online: 31 January 2025',
+    color: '#7670ff',                 // purple accent
+    icon: <GiArchiveResearch />,
+    url: 'https://link.springer.com/chapter/10.1007/978-981-97-9112-5_7',
+    // summary:
+    //   'CGPA 8.82 · IEEE Society Core. Capstone: autonomous UAV-swarm navigation.'
+  },
+
 
 
   /* ──────────────────────────────────────────────── */

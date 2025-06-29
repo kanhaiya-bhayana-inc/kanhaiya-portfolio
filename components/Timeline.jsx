@@ -5,6 +5,7 @@ import {
 } from 'react-vertical-timeline-component';
 import { experience } from '@/app/data/experience';
 import 'react-vertical-timeline-component/style.min.css';
+import Link from 'next/link';
 
 export default function Timeline() {
   return (
@@ -46,6 +47,11 @@ export default function Timeline() {
               className="text-sm leading-relaxed"
               dangerouslySetInnerHTML={{ __html: item.summary }}
             />
+          )}
+          {item.url && (
+            <Link href={item.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+              View Paper
+            </Link>
           )}
         </VerticalTimelineElement>
       ))}
