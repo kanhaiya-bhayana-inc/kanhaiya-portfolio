@@ -7,11 +7,11 @@ import {
   FaGit
 } from 'react-icons/fa'
 
-import { SiCsharp, SiAzuredevops, SiMicrosoftazure, SiNextdotjs } from "react-icons/si";
-import { BsFiletypeSql } from "react-icons/bs";
-import { DiDotnet } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
-import { GrServices } from "react-icons/gr";
+// import { SiCsharp, SiAzuredevops, SiMicrosoftazure, SiNextdotjs } from "react-icons/si";
+// import { BsFiletypeSql } from "react-icons/bs";
+// import { DiDotnet } from "react-icons/di";
+// import { IoLogoJavascript } from "react-icons/io";
+// import { GrServices } from "react-icons/gr";
 
 const about = {
   title: 'About me',
@@ -47,7 +47,7 @@ const about = {
 
 // experience data
 const experience = {
-  icon: '/assets/resume/badge.svg',
+  // icon: '/assets/resume/badge.svg',
   title: 'My experience',
   description: "",
   items: [
@@ -66,7 +66,7 @@ const experience = {
 
 // education data
 const education = {
-  icon: '/assets/resume/cap.svg',
+  // icon: '/assets/resume/cap.svg',
   title: 'My education',
   description: "",
   items: [
@@ -110,56 +110,56 @@ const skills = {
   description: "",
   slikkList: [
     {
-      icon: <SiCsharp />,
+      // icon: <SiCsharp />,
       name: "csharp",
     },
 
     {
-      icon: <FaJava />,
+      // icon: <FaJava />,
       name: "java",
     },
     {
-      icon: <DiDotnet />,
+      // icon: <DiDotnet />,
       name: "dotnet",
     },
     {
-      icon: <GrServices />,
+      // icon: <GrServices />,
       name: "microservices",
     },
     {
-      icon: <FaDocker />,
+      // icon: <FaDocker />,
       name: "docker",
     },
     {
-      icon: <BsFiletypeSql />,
+      // icon: <BsFiletypeSql />,
       name: "sql server",
     },
     {
-      icon: <IoLogoJavascript />,
+      // icon: <IoLogoJavascript />,
       name: "javascript",
     },
     {
-      icon: <FaReact />,
+      // icon: <FaReact />,
       name: "react.js",
     },
     {
-      icon: <SiNextdotjs />,
+      // icon: <SiNextdotjs />,
       name: "next.js",
     },
     {
-      icon: <FaNodeJs />,
+      // icon: <FaNodeJs />,
       name: "node.js",
     },
     {
-      icon: <SiAzuredevops />,
+      // icon: <SiAzuredevops />,
       name: "azuredevops",
     },
     {
-      icon: <SiMicrosoftazure />,
+      // icon: <SiMicrosoftazure />,
       name: "azure",
     },
     {
-      icon: <FaGit />,
+      // icon: <FaGit />,
       name: "git",
     },
   ]
