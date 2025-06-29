@@ -8,12 +8,40 @@
         @apply font-primary bg-primary text-white leading-loose;
     }
     .h1 {
-        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+        @apply text-[48px] xl:text-[80px] leading-[1.1] 
     }
     .h2 {
-        @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+        @apply text-[36px] xl:text-[48px] leading-[1.1] 
     }
     .h3 {
         @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
     }
+}
+:root {
+  --gh-bg-primary:    #0d1117;
+  --gh-bg-secondary:  #161b22;
+  --gh-border:        #30363d;
+  --gh-text-primary:  #c9d1d9;
+  --gh-text-secondary:#8b949e;
+  --gh-green:         #3fb950;
+  --gh-purple:        #a371f7;
+  --gh-pink:          #db61a2;
+  --gh-custom-card:   #3d454f;
+}
+
+/* body, spine, cards, icons … */
+body { background: var(--gh-bg-primary); color: var(--gh-text-primary); }
+.vertical-timeline::before            { background: var(--gh-border); width:2px; }
+.vertical-timeline-element-icon       { background: var(--gh-bg-secondary); border:2px solid var(--gh-bg-primary); color:var(--gh-text-secondary); }
+.vertical-timeline-element-content    { background: var(--gh-bg-secondary); border:1px solid var(--gh-border); border-radius:6px; box-shadow:none; }
+.vertical-timeline-element-content-arrow { border-right:8px solid var(--gh-bg-secondary); }
+.vertical-timeline-element-title      { font:600 0.875rem/1.4 'Mona Sans',sans-serif; }
+.vertical-timeline-element-subtitle,
+.vertical-timeline-element-date       { font:400 0.75rem/1.4 'SFMono-Regular',monospace; color:var(--gh-text-secondary); }
+
+/* globals.css */
+.gh-date {
+  color: var(--gh-text-secondary);
+  font-family: SFMono-Regular, monospace;
+  font-size: 0.75rem;
 }

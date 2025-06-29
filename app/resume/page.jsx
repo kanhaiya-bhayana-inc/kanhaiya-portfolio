@@ -4,9 +4,7 @@ import {
   FaReact,
   FaNodeJs,
   FaJava,
-  FaGit,
-
-
+  FaGit
 } from 'react-icons/fa'
 
 import { SiCsharp, SiAzuredevops, SiMicrosoftazure, SiNextdotjs } from "react-icons/si";

@@ -1,4 +1,5 @@
 import { JetBrains_Mono } from "next/font/google";
+import 'react-vertical-timeline-component/style.min.css';
 import "./globals.css";
 
 // components
