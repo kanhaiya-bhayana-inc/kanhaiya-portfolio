@@ -110,21 +110,29 @@ const skills = {
   description: "",
   slikkList: [
     {
-      // icon: <SiCsharp />,
-      name: "csharp",
-    },
-
-    {
       // icon: <FaJava />,
       name: "java",
     },
     {
       // icon: <DiDotnet />,
-      name: "dotnet",
+      name: "spring",
+    },
+
+    {
+      // icon: <DiDotnet />,
+      name: "springboot",
     },
     {
       // icon: <GrServices />,
       name: "microservices",
+    },
+    {
+      // icon: <FaNodeJs />,
+      name: "redis",
+    },
+    {
+      // icon: <FaNodeJs />,
+      name: "Jwt",
     },
     {
       // icon: <FaDocker />,
@@ -141,14 +149,6 @@ const skills = {
     {
       // icon: <FaReact />,
       name: "react.js",
-    },
-    {
-      // icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      // icon: <FaNodeJs />,
-      name: "node.js",
     },
     {
       // icon: <SiAzuredevops />,
