@@ -22,7 +22,7 @@ const Photo = () => {
                     }}
                 className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten">
                     <Image
-                        src="/assets/channels4_profile.jpg"
+                        src="/assets/profile_photo_witht_bg.png"
                         priority
                         quality={100}
                         fill
